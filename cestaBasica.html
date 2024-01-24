@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <title>Doações em SBC</title>
+</head>
+<body class="text-bg-secondary p-3">
+    
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Eventos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="feiraDeTroca.html">Feiras de Troca</a></li>
+                  <li><a class="dropdown-item" href="culturalArtistico.html">Eventos Culturais e Artísticos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">pensando em novos eventos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Doação de Cesta Básica</h1>
+            <p>Contribua para garantir alimentos essenciais a quem mais precisa.</p>
+            <img class="cestabasica" src="fotos/cestabasica.jpg" alt="Imagem Cesta Básica" class="img-fluid mb-4">
+            <p>A doação de cestas básicas ajuda a fornecer alimentos essenciais para famílias em situação de vulnerabilidade. Sua contribuição faz a diferença.</p>
+            <p><strong>Como doar:</strong></p>
+            <ol>
+              <li>Preencha o formulário com suas informações.</li>
+              <li>Escolha o valor da sua doação e prossiga para o pagamento.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <h1 class="text-center mb-4">Doação de Cesta Básica</h1>
+    
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="nome" required>
+          </div>
+    
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+    
+          <div class="mb-3">
+            <label for="valor" class="form-label">Valor da Doação</label>
+            <input type="number" class="form-control" id="valor" required>
+          </div>
+    
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem (opcional)</label>
+            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+          </div>
+    
+          <button type="submit" class="btn btn-primary">Finalizar Doação</button>
+        </form>
+      </div>
+
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        &copy; 2024 Doação São Bernardo
+    </footer>
+    
+    
+    
+</body>
+</html>
